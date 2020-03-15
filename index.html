@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Angry Game</title>
+  </head>
+  <body>
+
+    <h1>The game for ANGRY people</h1>
+
+    <div class="text">
+      <p id="part1">Build the most beautiful structure with the squares,</p>
+      <p id="part2">AND THEN DESTROY EVERYTHING WITH THE FIRE BALL!</p>
+    </div>
+
+    <a class="btn" onclick="spawnBlock()" href="#">New block</a>
+
+    <a class="Reset" href="index.html" target="_self">Reset</a>
+
+    <div id="game"></div>
+
+    <script src="matter.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

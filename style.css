@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(48, 48, 48);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Nosifer", sans-serif;
+  margin-bottom: 0px;
+  color: rgb(177, 5, 5);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+#part1 {
+  font-family: "Parisienne", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: rgb(255, 86, 114);
+}
+
+#part2 {
+  font-family: "Nosifer", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.btn {
+  background: rgb(92, 126, 1);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  margin: 20px;
+}
+
+.btn:hover {
+  background: rgb(166, 190, 26);
+  color: white;
+  text-decoration: none;
+}
+
+.Reset {
+  background: rgb(92, 126, 1);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  margin: 20px;
+}
+
+.Reset:hover {
+  background: rgb(166, 190, 26);
+  color: white;
+  text-decoration: none;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
